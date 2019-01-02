@@ -19,5 +19,5 @@ from Django_Web.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', index), #url(r'^index/', index), #在url中凡是以url开头的访问都使用index函数来处理该请求
+    path('index/', index), #url(r'^index/', index), #在url中凡是以url开头的访问都使用index函数来处理该请求test
 ]
